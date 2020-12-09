@@ -1,0 +1,100 @@
+/* key frames are the main way of doing simple transitions in CSS
+key frames can be defined as reusable, meaning they can be used on multiple objects throughout the program
+The definition must include ;
+1] animation identifier
+2] keyframe blocks
+
+Here's an example of the format:
+
+@keyframes identifier {
+  keyframe_selectorA {
+    property: value1;
+    property: value2;
+  }
+  keyframe_selectorB {
+  property: value1;
+  }
+}
+
+Setting up a keyframe
+
+First, we're just going to change the background color of the page
+ */
+
+ @keyframes colorChange {
+
+ }
+
+/* make the block fall*/
+
+ @keyframes moveBlockDown {
+
+ }
+
+/* change the shape
+hint - think about a property that changes the corners of the shape
+ */
+
+ @keyframes changeShape {
+
+ }
+
+/* change the size of the shape  */
+
+ @keyframes changeSize {
+
+ }
+
+/* uncomment for the first half */
+
+ /* div{
+   width: 500px;
+   height: 500px;
+   background: red;
+   position: relative;
+ } */
+
+
+
+/*
+PART 2
+
+Now that you've learned the basics of @keyframes and animations, use what you've
+learned to animate your name. Start by uncommenting the center class and the h1
+tag from the html file.
+
+I've given a few starter ideas below, see if you can think of more properties
+to shift. Definitely use the internet to find properties and ask for help if you
+need it!
+ */
+
+
+
+
+@keyframes slideIn {
+
+}
+@keyframes color {
+
+}
+@keyframes size {
+
+}
+@keyframes backgroundColor {
+
+}
+/*
+
+ div{
+   text-align: center;
+   width: 500px;
+   height: 500px;
+ }
+
+ .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  animation: borderColor 1s infinite, title 1s, color 10s infinite;
+} */
